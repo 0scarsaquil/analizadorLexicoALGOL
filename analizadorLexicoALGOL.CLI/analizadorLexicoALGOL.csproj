@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>analizadorLexicoALGOL.CLI</RootNamespace>
+    <AssemblyName>analizadorLexicoALGOL.CLI</AssemblyName>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\analizadorLexicoALGOL.Core\Clases.csproj" />
+  </ItemGroup>
+</Project>
